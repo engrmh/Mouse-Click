@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #000;
+}
+.context-menu {
+    position: absolute;
+    display: none;
+}
+.menu-container > li{
+    list-style-type: none;
+}
+.menu-container{
+    border-radius: 10px;
+    background-color: #323031;
+}
+.menu{
+    color: #fff;
+    width: 13rem;
+    padding: 0;
+}
+.row-menu > .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+.row-menu > .menu > li{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.column-menu> .menu{
+    padding-bottom: .5rem;
+}
+.column-menu > .menu li{
+    list-style-type: none;
+    padding: .5rem 1rem;
+}
+.row-menu-menu > .menu li{
+    list-style-type: none;
+    padding: 1rem;
+}
+a:visited , a:link{
+    text-decoration: none;
+    color: #fff;
+}
+.menu > li{
+    transition: .3s linear;
+}
+/*.share a:hover,*/
+/*.rename a:hover,*/
+/*.link a:hover,*/
+/*.copy a:hover,*/
+/*.paste a:hover,*/
+/*.download a:hover{*/
+/*    color: #fff;*/
+/*}*/
+/*.trash a:hover{*/
+/*    color: red;*/
+/*}*/
+.column-menu >.menu > li > a > i{
+    margin-right: 10px;
+}
+.row-menu >.menu > li > a > i{
+    padding: 10px;
+}
+.share1:hover,
+.rename1:hover,
+.link1:hover,
+.cut1:hover,
+.copy1:hover,
+.paste1:hover,
+.download1:hover {
+    background: #4361ee;
+    border-radius: 50%;
+}
+.share:hover,
+.rename:hover,
+.link:hover,
+.cut:hover,
+.copy:hover,
+.paste:hover,
+.download:hover {
+    background: #4361ee;
+}
+.trash:hover{
+    background: #ef233c;
+}.trash1:hover{
+    background: #ef233c;
+     border-radius: 50%;
+}
